@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import { Table, TableHead, TableRow, TableCell } from 'react-toolbox/lib/table';
@@ -36,6 +35,4 @@ ProductsTable.propTypes = Object.freeze({
   })).isRequired,
 });
 
-export default connect(state => ({
-  products: state.productsReducer.products,
-}))(ProductsTable);
+export default ProductsTable;
