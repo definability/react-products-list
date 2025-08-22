@@ -1,5 +1,7 @@
 # React products bucket
 
+Archived test task.
+
 ## Development server
 
 ```
